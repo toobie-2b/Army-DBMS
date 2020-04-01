@@ -1,0 +1,18 @@
+SET SEARCH_PATH to armydb;
+INSERT INTO "visited" (sold_id, pincode, date_, reason) VALUES (44668, '189512','2011-01-10','For a confidential meeting');
+INSERT INTO "visited" (sold_id, pincode, date_, reason) VALUES (36099, '126239','2015-10-05','For meeting with a Chinese officer');
+INSERT INTO "visited" (sold_id, pincode, date_, reason) VALUES (49158, '730552','2013-05-26','For meeting on movement of pakistan');
+INSERT INTO "visited" (sold_id, pincode, date_, reason) VALUES (26548, '173055','2006-12-28','For a meeting of visit of Dalai Lama');
+INSERT INTO "visited" (sold_id, pincode, date_, reason) VALUES (28613, '613519','2008-07-12','For reviewing a deal of weapons with Russia');
+INSERT INTO "visited" (sold_id, pincode, date_, reason) VALUES (14256, '189512','2005-03-21','For awarding a medal');
+INSERT INTO "visited" (sold_id, pincode, date_, reason) VALUES (27989, '613519','2003-11-04','For discussing border-security issues in Capital');
+INSERT INTO "visited" (sold_id, pincode, date_, reason) VALUES (33728, '220096','2010-01-05','For a techincal meeting on radar technology with Taiwan');
+INSERT INTO "visited" (sold_id, pincode, date_, reason) VALUES (11053, '613519','2013-01-19','For a surgical strike on Pakistan.');
+INSERT INTO "visited" (sold_id, pincode, date_, reason) VALUES (23432, '220096','2016-09-30','For a meeting with the naval-chief');
+INSERT INTO "visited" (sold_id, pincode, date_, reason) VALUES (22513, '189512','2017-01-31','For a meeting at Indo-Pak Border');
+INSERT INTO "visited" (sold_id, pincode, date_, reason) VALUES (40386, '220096','2011-01-17','For a meeting with Air-chief');
+INSERT INTO "visited" (sold_id, pincode, date_, reason) VALUES (31931, '110533','2001-10-12','For a confidential meeting');
+INSERT INTO "visited" (sold_id, pincode, date_, reason) VALUES (19339, '220096','2016-12-12','For reviewing a deal of weapons with America');
+INSERT INTO "visited" (sold_id, pincode, date_, reason) VALUES (33998, '167009','2009-05-19','For a meeting in New-Delhi');
+INSERT INTO "visited" (sold_id, pincode, date_, reason) VALUES (13423, '167009','2008-08-05','For a meeting with Chinese officials');
+INSERT INTO "visited" (sold_id, pincode, date_, reason) VALUES (49159, '167009','2001-11-24','For a meeting on purchasing new weapons');

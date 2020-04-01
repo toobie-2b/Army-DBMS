@@ -1,0 +1,22 @@
+---Data Entry inventory
+SET SEARCH_PATH to armydb;
+INSERT INTO "inventory" (Serial_No,ID) VALUES(1053,44668);
+INSERT INTO "inventory" (Serial_No,ID) VALUES(1585,36099);
+INSERT INTO "inventory" (Serial_No,ID) VALUES(1355,49158);
+INSERT INTO "inventory" (Serial_No,ID) VALUES(1574,26548);
+INSERT INTO "inventory" (Serial_No,ID) VALUES(1280,28613);
+INSERT INTO "inventory" (Serial_No,ID) VALUES(1047,27989);
+INSERT INTO "inventory" (Serial_No,ID) VALUES(1551,14256);
+INSERT INTO "inventory" (Serial_No,ID) VALUES(1469,33728);
+INSERT INTO "inventory" (Serial_No,ID) VALUES(1467,11053);
+INSERT INTO "inventory" (Serial_No,ID) VALUES(1513,23432);
+INSERT INTO "inventory" (Serial_No,ID) VALUES(1208,22513);
+INSERT INTO "inventory" (Serial_No,ID) VALUES(1556,40386);
+INSERT INTO "inventory" (Serial_No,ID) VALUES(1303,31931);
+INSERT INTO "inventory" (Serial_No,ID) VALUES(1259,19339);
+INSERT INTO "inventory" (Serial_No,ID) VALUES(1606,33998);
+INSERT INTO "inventory" (Serial_No,ID) VALUES(1859,13423);
+INSERT INTO "inventory" (Serial_No,ID) VALUES(1329,49159);
+INSERT INTO "inventory" (Serial_No,ID) VALUES(1946,29603);
+INSERT INTO "inventory" (Serial_No,ID) VALUES(1418,43638);
+INSERT INTO "inventory" (Serial_No,ID) VALUES(1921,49158);
