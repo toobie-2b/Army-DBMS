@@ -1,11 +1,10 @@
--- Army Database DDL Script
+-- Army Database SQL Script
 -- Group Members
 -- Anisha Arora
 -- Kartikeya Shorya
 -- Kinshuk Chaturvedi
 
 CREATE DATABASE Armydb;
-SET SEARCH_PATH TO Armydb;
 USE Armydb;
 
 SET FOREIGN_KEY_CHECKS=0;
