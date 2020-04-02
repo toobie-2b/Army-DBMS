@@ -1,27 +1,20 @@
-set SEARCH_PATH TO Armydb;
-
 INSERT INTO Weapons (serialNo, name_) VALUES (1053, 'AK47');
-
-
 INSERT INTO Weapons (serialNo, name_) VALUES (1585, 'Ikbiza');
 INSERT INTO Weapons (serialNo, name_) VALUES (1029, 'Agni 2');
 INSERT INTO Weapons (serialNo, name_) VALUES (1366, 'Agni 3');
 INSERT INTO Weapons (serialNo, name_) VALUES (1322, 'Agni 4');
 INSERT INTO Weapons (serialNo, name_) VALUES (1473, 'Agni 5');
 INSERT INTO Weapons (serialNo, name_) VALUES (1355, 'Beretta 92A');
-
 INSERT INTO Weapons (serialNo, name_) VALUES (1574, 'Colt M1911');
 INSERT INTO Weapons (serialNo, name_) VALUES (1280, 'Glock');
 INSERT INTO Weapons (serialNo, name_) VALUES (1047, 'M14');
 INSERT INTO Weapons (serialNo, name_) VALUES (1551, 'Galil');
 INSERT INTO Weapons (serialNo, name_) VALUES (1469, 'AK100');
 INSERT INTO Weapons (serialNo, name_) VALUES (1786, 'Barret M82');
-
 INSERT INTO Weapons (serialNo, name_) VALUES (1467, 'SPG-9');
 INSERT INTO Weapons (serialNo, name_) VALUES (1513,' Pistol Auto 9mm 1A');
 INSERT INTO Weapons (serialNo, name_) VALUES (1208,'Glock 17');
 INSERT INTO Weapons (serialNo, name_) VALUES (1556,'SAF Carbine 1A');
-
 INSERT INTO Weapons (serialNo, name_) VALUES (1303,'Micro Uzi');
 INSERT INTO Weapons (serialNo, name_) VALUES (1259,'SAF Carbine 2A1');
 INSERT INTO Weapons (serialNo, name_) VALUES (1606,'M4A1 Carbine');

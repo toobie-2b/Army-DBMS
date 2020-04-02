@@ -1,4 +1,3 @@
-SET SEARCH_PATH TO Armydb;
 INSERT INTO Visited (sold_id, PINCODE, date_, Reason) VALUES (44668, '189512','2011-01-10','For a confidential meeting');
 INSERT INTO Visited (sold_id, PINCODE, date_, Reason) VALUES (36099, '126239','2015-10-05','For meeting with a Chinese officer');
 INSERT INTO Visited (sold_id, PINCODE, date_, Reason) VALUES (49158, '730552','2013-05-26','For meeting on movement of pakistan');

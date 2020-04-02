@@ -1,4 +1,3 @@
-SET SEARCH_PATH TO Armydb;
 INSERT INTO Medal(name_) VALUES ('Ashoka Chakra');
 INSERT INTO Medal(name_) VALUES ('Ati Vishisht Seva Medal');
 INSERT INTO Medal(name_) VALUES ('India Service medal');

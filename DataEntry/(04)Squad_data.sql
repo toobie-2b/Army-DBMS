@@ -1,5 +1,4 @@
 ---data entry of squads
-SET SEARCH_PATH TO Armydb;
 INSERT INTO Squads (squadNumber,Captain,yearNo,totalCapacity) VALUES('34th Mountain Division',337201,2011,50);
 INSERT INTO Squads (squadNumber,Captain,yearNo,totalCapacity) VALUES('7th Infantry Division',16101,2010,40);
 INSERT INTO Squads (squadNumber,Captain,yearNo,totalCapacity) VALUES('25th RAPID',27989,2008,50);
@@ -15,7 +14,6 @@ INSERT INTO Squads (squadNumber,Captain,yearNo,totalCapacity) VALUES('23rd Infan
 INSERT INTO Squads (squadNumber,Captain,yearNo,totalCapacity) VALUES('50th Independent Parachute Brigade',12345,2013,60);
 INSERT INTO Squads (squadNumber,Captain,yearNo,totalCapacity) VALUES('39th Infantry Dvision',15237,2013,40);
 INSERT INTO Squads (squadNumber,Captain,yearNo,totalCapacity) VALUES('50th Independent Parachute Brigade',48563,2005,50);
-
 INSERT INTO Squads (squadNumber,Captain,yearNo,totalCapacity) VALUES('29st Infantry Division',13045,2014,45);
 INSERT INTO Squads (squadNumber,Captain,yearNo,totalCapacity) VALUES('21st Infantry Division',11045,2014,55);
 INSERT INTO Squads (squadNumber,Captain,yearNo,totalCapacity) VALUES('31st Infantry Division',22045,2014,60);

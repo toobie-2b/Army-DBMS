@@ -1,5 +1,4 @@
 -- data entry for cateogry
-SET SEARCH_PATH TO Armydb;
 INSERT INTO Cateogry (name_ ,class_)VALUES('AK47','semi-automatic');
 INSERT INTO Cateogry (name_ ,class_)VALUES ('Ikbiza', 'ballistic-missile');
 INSERT INTO Cateogry (name_ ,class_) VALUES('Agni 2', 'ballistic-missile');
@@ -32,8 +31,6 @@ INSERT INTO Cateogry (name_ ,class_) VALUES('Mauser SP66', 'sniper-rifle');
 INSERT INTO Cateogry (name_ ,class_) VALUES('IMI Galil 7.62 Sniper','sniper-rifle');
 INSERT INTO Cateogry (name_ ,class_) VALUES('Heckler & Koch PSG1','semi-automatic-sniper');
 INSERT INTO Cateogry (name_ ,class_) VALUES('Dragunov SVD59', 'semi-automatic-sniper');
-
-
 INSERT INTO Cateogry (name_ ,class_) VALUES('OSV-96','semi-automatic-sniper');
 INSERT INTO Cateogry (name_ ,class_) VALUES('M2 Browning','machine-gun');
 INSERT INTO Cateogry (name_ ,class_) VALUES('NSV','machine-gun');
