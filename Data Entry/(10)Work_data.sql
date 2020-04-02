@@ -1,4 +1,4 @@
-SET SEARCH_PATH to armydb;
+SET SEARCH_PATH TO armydb;
 INSERT INTO WORK(Type_, Salary) Values ('Soldier', '23000');
 INSERT INTO WORK(Type_, Salary) Values ('Havildar', '12000');
 INSERT INTO WORK(Type_, Salary) Values ('Lieutenant', '56100');

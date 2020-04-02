@@ -1,4 +1,4 @@
-SET SEARCH_PATH to armydb;
+SET SEARCH_PATH TO armydb;
 --- Inert data Soldier
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
 (44668,'Kamal Awasthi','Soldier','2013-02-12','50th Independent Parachute Brigade',298144,162,65,75,1,'2043-02-23', '1993-04-21', 2005);

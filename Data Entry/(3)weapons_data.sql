@@ -1,4 +1,4 @@
-set search_path to Armydb;
+set SEARCH_PATH TO Armydb;
 
 INSERT INTO Weapons (serialNo, name_) VALUES (1053, 'AK47');
 

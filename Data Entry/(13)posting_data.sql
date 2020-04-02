@@ -1,4 +1,4 @@
-set SEARCH_PATH to Armydb;
+SET SEARCH_PATH TO Armydb;
 
 INSERT INTO Posting (ID, pincode, date_) VALUES (44668, '189512', to_date('2004-04-01', 'YYYY-MM-DD'));
 

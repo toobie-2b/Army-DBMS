@@ -1,6 +1,6 @@
 
 -- data entry for Manufacturing details
-SET SEARCH_PATH to Armydb;
+SET SEARCH_PATH TO Armydb;
 INSERT INTO ManufacturingDetails (Serial_No, ManufaturingDate, ManufacturingLocation, orgName) VALUES (1053,'2000-03-12','Kanpur','HAL');
 INSERT INTO Company (orgName, CountryName) VALUES ('HAL', 'INDIA');
 INSERT INTO ManufacturingDetails (Serial_No, ManufaturingDate, ManufacturingLocation, orgName) VALUES (1585,'2015-09-09','Lucknow','HAL');

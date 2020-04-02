@@ -1,5 +1,5 @@
 ---data entry of squads
-SET SEARCH_PATH to Armydb;
+SET SEARCH_PATH TO Armydb;
 INSERT INTO Squads (squadNumber,Captain,yearNo,totalCapacity) VALUES('34th Mountain Division',337201,2011,50);
 INSERT INTO Squads (squadNumber,Captain,yearNo,totalCapacity) VALUES('7th Infantry Division',16101,2010,40);
 INSERT INTO Squads (squadNumber,Captain,yearNo,totalCapacity) VALUES('25th RAPID',27989,2008,50);

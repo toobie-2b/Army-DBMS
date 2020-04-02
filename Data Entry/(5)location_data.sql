@@ -1,4 +1,4 @@
-set search_path to Armydb;
+SET SEARCH_PATH TO Armydb;
 
 -- data entry for the location
 INSERT INTO Location (PinCode,District,State,Country) VALUES ('298144','Bokaro Steel City','Jharkhand','India');

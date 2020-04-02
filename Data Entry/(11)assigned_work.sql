@@ -1,4 +1,4 @@
-SET SEARCH_PATH to Armydb;
+SET SEARCH_PATH TO Armydb;
 INSERT INTO Assign (ID, Type_, Date_) VALUES (44668, 'Soldier', to_date('2015-02-18', 'YYYY-MM-DD'));
 INSERT INTO Assign (ID, Type_, Date_) VALUES (36099, 'Havildar', to_date('2010-11-12', 'YYYY-MM-DD'));
 INSERT INTO Assign (ID, Type_, Date_) VALUES (12345, 'Lieutenant', to_date('1975-05-08', 'YYYY-MM-DD'));--

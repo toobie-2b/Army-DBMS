@@ -1,5 +1,5 @@
 ---Data Entry inventory
-SET SEARCH_PATH to Armydb;
+SET SEARCH_PATH TO Armydb;
 INSERT INTO Inventory (Serial_No,ID) VALUES(1053,44668);
 INSERT INTO Inventory (Serial_No,ID) VALUES(1585,36099);
 INSERT INTO Inventory (Serial_No,ID) VALUES(1355,49158);
