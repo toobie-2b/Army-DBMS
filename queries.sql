@@ -45,7 +45,7 @@ where stat.WarDateNo = '2005' and stat.Pincode = '126239' and ALIVE = 0;
 
 -- Q7|Count of the soldiers that died in that war
 
-select count(SoldierStatus.id)
+select count(SoldierStatus.ID)
 from Soldier
 inner join SoldierStatus as stat on stat.ID = Soldier.ID
 where stat.WarDateNo = '2005' and stat.Pincode = '126239' and ALIVE = 0;
@@ -70,7 +70,7 @@ from Posting as post
 inner join (
 select loc.PINCODE, loc.District, loc.State, loc.Country
 from War
-inner join Location as loc on loc.PINCODE = war.PINCODE)
+inner join Location as loc on loc.PINCODE = war.pincode)
 as r on r.PINCODE = post.pincode;
 
 -- Q10| Find the soldier who are posted in war after 2003
@@ -118,7 +118,7 @@ where extract(year from DOJ) - extract(year from DOJ) > 35;
 -- Q16|Current Income of the Soldier
 
 SELECT Salary
-FROM Work AS w
+FROM WORK AS w
   JOIN Soldier
     AS s
     ON (s.RANK = w.Type_)
@@ -140,17 +140,17 @@ inner join Squads as sqd on sqd.squadNumber = sold.SquadNo
 where sold.ID = 19339;
 
 -- Q19| Check the inventory of a given soldier and give the manufacturing dates of the weapons.
-SET SEARCH_PATH to Armydb;
+SET SEARCH_PATH TO Armydb;
 SELECT ManufaturingDate, ManufacturingLocation, orgName FROM ManufacturingDetails AS manu JOIN (
 SELECT serialNo, name_ FROM Weapons AS w join
 (SELECT Serial_No FROM Inventory AS i JOIN Soldier AS s ON (i.ID = s.ID) WHERE s.name_= 'Sandeep Singh') As s
   ON (w.serialno = s.serial_no)) AS t ON (manu.serial_no = t.serialno);
 
 -- Q20| Find the number of soldiers which are soldiers as well as brigadiers.
-SET SEARCH_PATH to Armydb;
+SET SEARCH_PATH TO Armydb;
 (SELECT count(ID) FROM Soldier AS s WHERE s.RANK = 'Soldier')
 UNION
-(SELECT count(ID) FROM soldier AS s WHERE s.RANK = 'Brigadier');
+(SELECT count(ID) FROM Soldier AS s WHERE s.RANK = 'Brigadier');
 
 -- -- Q21| Find the number of male soldiers.
 -- SET SEARCH_PATH to Armydb;
