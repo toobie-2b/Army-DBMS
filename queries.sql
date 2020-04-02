@@ -37,12 +37,6 @@ from Soldier
 inner join SoldierStatus as stat on stat.ID = Soldier.ID
 where stat.WarDateNo = '2005' and stat.Pincode = '126239' and ALIVE = 0;
 
--- Q7|Count of the soldiers that died in that war
-select count(SoldierStatus.ID)
-from Soldier
-inner join SoldierStatus as stat on stat.ID = Soldier.ID
-where stat.WarDateNo = '2005' and stat.Pincode = '126239' and ALIVE = 0;
-
 -- Q7|Give the physical stats of a soldier
 select Height, Weight, Chest
 from Soldier
@@ -60,7 +54,7 @@ from Posting as post
 inner join (
 select loc.PINCODE, loc.District, loc.State, loc.Country
 from War
-inner join Location as loc on loc.PINCODE = war.pincode)
+inner join Location as loc on loc.PINCODE = War.pincode)
 as r on r.PINCODE = post.pincode;
 
 -- Q10| Find the soldier who are posted in war after 2003

@@ -58,8 +58,8 @@ ON UPDATE CASCADE ON DELETE CASCADE,
 ManufaturingDate      DATE       NOT NULL,
 ManufacturingLocation VARCHAR(100),
 orgName VARCHAR(100) NOT NULL REFERENCES Company(orgName),
-PRIMARY KEY(Serial_no, orgName)
-);
+PRIMARY KEY(Serial_no)
+); -- deleted orgName from PRIMARY KEY
 
 -- Soldier Entity (Prime)
 -- DOJ (Date of joining)
