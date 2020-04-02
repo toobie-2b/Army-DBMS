@@ -33,7 +33,6 @@ INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, W
   (27989,'Rakshit Jain','Major','2013-08-06','39th Infantry Division',671365,170,66,76,1,'2040-06-10','1990-02-13', 2013);
 
 
-
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
   (14256,'Subham Singh','Captain','2010-05-04','4th Infantry Division',454690,176,80,85,1,'2055-02-01','1988-06-12', 2010);
 
@@ -63,7 +62,7 @@ INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, W
 
 
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
-  (31931,'Satyam Singh Rathore','Soldier','2010-3-17','34th Mountain Division',623846,182,78,84,1,'2053-3-23','1986-4-12', 2011);
+  (31931,'Satyam Singh Rathore','Soldier','2010-3-17','35th Mountain Division',623846,182,78,84,1,'2053-3-23','1986-4-12', 2011);
 
 
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
@@ -80,7 +79,7 @@ INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, W
 
 
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
-  (49159,'Vijay Kumar Ahirwar','Major General','2011-3-15','34th Mountain Division',591813,176,70,76,1,'2009-3-21','1983-4-27', 2011);
+  (49159,'Vijay Kumar Ahirwar','Major General','2011-3-15','36th Mountain Division',591813,176,70,76,1,'2009-3-21','1983-4-27', 2011);
 
 
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
@@ -106,32 +105,32 @@ INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, W
   (12398,'Raghu Reddy','Soldier','2011-4-15','23rd Infantry Division',648129,185,74,80,1,'2051-12-11','1996-03-29', 2005);
 
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
-(12245,'Prakash Rai','Soldier','2010-9-11','34th Mountain Division',648129,172,78,75,1,'2040-06-16','1990-02-24',2014);
+(12245,'Prakash Rai','Soldier','2010-9-11','37th Mountain Division',648129,172,78,75,1,'2040-06-16','1990-02-24',2014);
 
 
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
 (10305,'Anil Sharma','Captain','2014-10-11','39th Infantry Division',613519,176,75,80,1,'2050-07-16','1994-01-24',2016);
 
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
-(12051,'Mayank Padi','Soldier','2011-9-21','34th Mountain Division',604377,174,75,79,1,'2045-06-26','1991-02-24',2015);
+(12051,'Mayank Padi','Soldier','2011-9-21','38th Mountain Division',604377,174,75,79,1,'2045-06-26','1991-02-24',2015);
 
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
 (12300,'Piyush Shikarval','Soldier','2005-9-21','4th Armoured Division',289051,162,68,75,1,'2040-06-16','1985-01-24',2010);
 
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
-(12105,'Yogesh Agrawal','Major','2009-6-11','34th Mountain Division',809956,162,68,75,1,'2042-07-26','1989-02-14',2017);
+(12105,'Yogesh Agrawal','Major','2009-6-11','39th Mountain Division',809956,162,68,75,1,'2042-07-26','1989-02-14',2017);
 
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
 (14345,'Shubham verma','Soldier','2004-3-11','50th Independent Parachute Brigade',268825,172,78,80,1,'2040-05-26','1990-02-24',2008);
 
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
-(11145,'Ankur Ranjan','Brigadier','2013-10-11','7th Infantry Division',553179,170,76,85,1,'2050-07-16','1990-01-14',2015);
+(11145,'Ankur Ranjan','Brigadier','2013-10-11','8th Infantry Division',553179,170,76,85,1,'2050-07-16','1990-01-14',2015);
 
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
 (12115,'Anil Kumar','Soldier','2008-10-11','4th Armoured Division',485735,171,80,83,1,'2045-07-16','1988-06-14',2012);
 
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
-(12045,'Himanshu Singal','Soldier','2011-8-11','7th Infantry Division',515605,172,80,85,1,'2052-07-16','1990-03-16',2015);
+(12045,'Himanshu Singal','Soldier','2011-8-11','9th Infantry Division',515605,172,80,85,1,'2052-07-16','1990-03-16',2015);
 
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
 (10345,'Alizey Zalil','Lieutenant','2013-6-18','50th Independent Parachute Brigade',252411,176,88,85,1,'2055-09-16','1992-08-28',2016);
@@ -140,10 +139,10 @@ INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, W
 (10045,'Aditya kashyap ','Soldier','2007-10-19','71st Infantry Division',555131,173,74,80,1,'2045-08-26','1987-03-11',2010);
 
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
-(12005,'Vikas Rajput','Colonel','2015-10-21','34th Mountain Division',183998,174,81,85,1,'2055-04-26','1994-07-14',2017);
+(12005,'Vikas Rajput','Colonel','2015-10-21','40th Mountain Division',183998,174,81,85,1,'2055-04-26','1994-07-14',2017);
 
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
-(11305,'Viral Patel','Havildar','2011-1-21','7th Infantry Division',369382,173,86,87,1,'2056-06-16','1989-09-14',2013);
+(11305,'Viral Patel','Havildar','2011-1-21','10th Infantry Division',369382,173,86,87,1,'2056-06-16','1989-09-14',2013);
 
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
 (11045,'Akash sharma','Soldier','2013-8-29','71st Infantry Division',274780,177,78,85,1,'2050-08-26','1990-08-14',2010);
@@ -165,4 +164,3 @@ INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, W
 
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
 (11046,'Yogesh sharma','Soldier','2011-8-30','21st Infantry Division',220038,175,78,83,1,'2044-04-16','1990-03-18',2014);
-

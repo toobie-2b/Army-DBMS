@@ -1,6 +1,6 @@
---- Data entry for soldierstatus
----- 0 for Death
----- 1 for wounded
+-- Data entry for soldierstatus
+-- 0 for Death
+-- 1 for wounded
 INSERT INTO SoldierStatus (ID ,ALIVE,WarDateNo,Pincode) VALUES(36099,0,2005,'126239');
 INSERT INTO SoldierStatus (ID ,ALIVE,WarDateNo,Pincode) VALUES(28613,1,2005,'126239');
 INSERT INTO SoldierStatus (ID ,ALIVE,WarDateNo,Pincode) VALUES(44668,1,2009,'126239');
