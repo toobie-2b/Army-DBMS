@@ -63,10 +63,10 @@ INSERT INTO ManufacturingDetails (Serial_no, ManufaturingDate, ManufacturingLoca
 INSERT INTO Company (orgName, CountryName) VALUES ('Reliance Industries Limited', 'INDIA');
 INSERT INTO ManufacturingDetails (Serial_no, ManufaturingDate, ManufacturingLocation, orgName) VALUES (1255,'2005-2-10','Pune','Bharat Forge');
 INSERT INTO Company (orgName, CountryName) VALUES ('Bharat Forge', 'INDIA');
-INSERT INTO ManufacturingDetails (Serial_no, ManufaturingDate, ManufacturingLocation, orgName) VALUES (1270,'2006-7-8','London','Hinduja Group');
-INSERT INTO Company (orgName, CountryName) VALUES ('Hinduja Group', 'United Kingdom');
-INSERT INTO ManufacturingDetails (Serial_no, ManufaturingDate, ManufacturingLocation, orgName) VALUES (1974,'2009-8-15',' Mumbai','Larsen & Toubro Limited');
-INSERT INTO Company (orgName, CountryName) VALUES ('Larsen & Toubro Limited', 'INDIA');
+INSERT INTO ManufacturingDetails (Serial_no, ManufaturingDate, ManufacturingLocation, orgName) VALUES (1270,'2006-7-8','Mumbai','Hinduja Group');
+INSERT INTO Company (orgName, CountryName) VALUES ('Hinduja Group', 'INDIA');
+INSERT INTO ManufacturingDetails (Serial_no, ManufaturingDate, ManufacturingLocation, orgName) VALUES (1974,'2009-8-15','London','Larsen & Toubro Limited');
+INSERT INTO Company (orgName, CountryName) VALUES ('Larsen & Toubro Limited', 'UNITED KINGDOM');
 INSERT INTO ManufacturingDetails (Serial_no, ManufaturingDate, ManufacturingLocation, orgName) VALUES (1557,'2002-11-11','Kanpur','HAL');
 INSERT INTO Company (orgName, CountryName) VALUES ('HAL', 'INDIA');
 INSERT INTO ManufacturingDetails (Serial_no, ManufaturingDate, ManufacturingLocation, orgName) VALUES (1717,'2001-3-14','Lucknow','HAL');
