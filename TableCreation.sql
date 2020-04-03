@@ -34,7 +34,7 @@ squadNumber        VARCHAR(100),
 Captain       INTEGER    NOT NULL,
 yearNo 	      INTEGER 	 NOT NULL,
 totalCapacity INTEGER    NOT NULL CHECK (totalCapacity > 0),
-PRIMARY KEY(squadNumber)
+PRIMARY KEY(squadNumber, yearNo)
 );
 
 -- General location entity
@@ -83,7 +83,7 @@ Weight INTEGER CHECK (Weight > 40),
 Chest  INTEGER CHECK (Chest > 50),
 UNIQUE (ID),
 FOREIGN KEY (SquadNo, yearNo) REFERENCES Squads(SquadNumber, yearNo),
-PRIMARY KEY (ID, SquadNo, yearNo, BirthPlacePinCode)
+PRIMARY KEY (ID, BirthPlacePinCode)
 );
 
 -- Places Visited by Soldier
