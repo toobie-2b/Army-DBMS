@@ -15,11 +15,7 @@ INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, W
 
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
   (49158,'Satveer Singh Thakur','Major General','2008-10-11','71st Infantry Division',846529,171,76,85,1,'2045-03-02','1989-6-12', 2008);
-
-
-INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
-  (44668,'Chuni Lal','Soldier','2004-06-12','71st Infantry Division',730552,166,65,72,1,'2030-06-13','1985-01-12', 2008);
-
+  
 
 INSERT INTO Soldier (ID, name_, RANK, DOJ, SquadNo, BirthPlacePinCode, Height, Weight, Chest, Sex, DOR, DOB, yearNo) VALUES
   (26548,'Bijendra Verma','Soldier','2006-08-09','59th Infantry Division',648184,173,76,82,1,'2032-04-14','1986-7-13', 2006);

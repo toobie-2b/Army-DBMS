@@ -47,7 +47,7 @@ UNIQUE (PINCODE)
 );
 
 CREATE TABLE Company (
-orgName VARCHAR(100) PRIMARY KEY,
+orgName VARCHAR(100) NOT NULL,
 CountryName VARCHAR(20) NOT NULL
 );
 
@@ -57,7 +57,7 @@ Serial_no   INTEGER REFERENCES Weapons (serialNo)
 ON UPDATE CASCADE ON DELETE CASCADE,
 ManufaturingDate      DATE       NOT NULL,
 ManufacturingLocation VARCHAR(100),
-orgName VARCHAR(100) NOT NULL REFERENCES Company(orgName),
+orgName VARCHAR(100) NOT NULL,
 PRIMARY KEY(Serial_no)
 ); -- deleted orgName from PRIMARY KEY
 

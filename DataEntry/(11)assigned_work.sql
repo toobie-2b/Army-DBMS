@@ -1,8 +1,6 @@
 INSERT INTO Assign (ID, Type_, Date_) VALUES (44668, 'Soldier', STR_TO_DATE('2015-02-18', '%Y-%m-%d'));
 INSERT INTO Assign (ID, Type_, Date_) VALUES (36099, 'Havildar', STR_TO_DATE('2010-11-12', '%Y-%m-%d'));
 INSERT INTO Assign (ID, Type_, Date_) VALUES (12345, 'Lieutenant', STR_TO_DATE('1975-05-08', '%Y-%m-%d'));
-INSERT INTO Assign (ID, Type_, Date_) VALUES (49158, 'Major General', STR_TO_DATE('2010-01-01', '%Y-%m-%d'));
-INSERT INTO Assign (ID, Type_, Date_) VALUES (44668, 'Soldier', STR_TO_DATE('2014-12-12', '%Y-%m-%d'));
 INSERT INTO Assign (ID, Type_, Date_) VALUES (26548, 'Soldier', STR_TO_DATE('2008-03-21', '%Y-%m-%d'));
 INSERT INTO Assign (ID, Type_, Date_) VALUES (28613, 'Soldier', STR_TO_DATE('2012-06-15', '%Y-%m-%d'));
 INSERT INTO Assign (ID, Type_, Date_) VALUES (27989, 'Major', STR_TO_DATE('2016-01-31', '%Y-%m-%d'));
@@ -33,7 +31,6 @@ INSERT INTO Assign (ID, Type_, Date_) VALUES (48779, 'Soldier', STR_TO_DATE('200
 INSERT INTO Assign (ID, Type_, Date_) VALUES (21474, 'Soldier', STR_TO_DATE('2015-12-24', '%Y-%m-%d'));
 INSERT INTO Assign (ID, Type_, Date_) VALUES (17694, 'Major General', STR_TO_DATE('1998-10-12', '%Y-%m-%d'));
 INSERT INTO Assign (ID, Type_, Date_) VALUES (48563, 'Lieutenant', STR_TO_DATE('2007-10-25','%Y-%m-%d'));
-INSERT INTO Assign (ID, Type_, Date_) VALUES (49158, 'Brigadier', STR_TO_DATE('2013-02-26','%Y-%m-%d'));
 INSERT INTO Assign (ID, Type_, Date_) VALUES (12498, 'Field Marshal', STR_TO_DATE('2010-07-29','%Y-%m-%d'));
 INSERT INTO Assign (ID, Type_, Date_) VALUES (14298, 'Major General', STR_TO_DATE('2016-12-21','%Y-%m-%d'));
 INSERT INTO Assign (ID, Type_, Date_) VALUES (10923, 'Brigadier', STR_TO_DATE('2009-10-13','%Y-%m-%d'));
