@@ -83,7 +83,7 @@ Weight INTEGER CHECK (Weight > 40),
 Chest  INTEGER CHECK (Chest > 50),
 UNIQUE (ID),
 FOREIGN KEY (SquadNo, yearNo) REFERENCES Squads(SquadNumber, yearNo),
-PRIMARY KEY (ID, BirthPlacePinCode)
+PRIMARY KEY (ID, SquadNo, yearNo, BirthPlacePinCode)
 );
 
 -- Places Visited by Soldier
